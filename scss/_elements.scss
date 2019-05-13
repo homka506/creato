@@ -10,16 +10,14 @@ button{
 	padding:0;
 	&:hover{
 	color: #ef4836;
-	 letter-spacing: 1.12px;
-	
 	}
-
 	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 }
 input[type="submit"],
 input[type="button"],
 button,
 .ba-button{
+	background: transparent;
 	
 }
 input[type="text"],
@@ -29,6 +27,14 @@ input[type="number"],
 input[type="tel"],
 textarea,
 select {
+	background-color: #131313;
+	width: 50%;
+	border: none;
+    border-bottom: 1px solid #525252;
+    letter-spacing: 0.06em;
+    color: #fff;
+    padding: 13px 10px;
+    margin-bottom: 10px;
 	 transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
 	&:focus{
 		
@@ -36,5 +42,5 @@ select {
 }
 
 textarea {
-
+	
 }
