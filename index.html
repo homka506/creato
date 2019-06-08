@@ -26,13 +26,13 @@
 											d="M4 10h24a2 2 0 0 0 0-4H4a2 2 0 0 0 0 4zm24 4H4a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4zm0 8H4a2 2 0 0 0 0 4h24a2 2 0 0 0 0-4z" />
 									</svg>
 								</button>
-						<ul class="ba-menu">
+						<ul class="ba-menu open">
 							<li><a href="#welcome">Welcome</a></li>
 							<li><a href="#about">About</a></li>
 							<li><a href="#services">Services</a></li>
 							<li><a href="#portfolio">Portfolio</a></li>
 							<li><a href="#testimonial">Testimonial</a></li>
-							<li><a href="#Contact">Contact</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -42,14 +42,14 @@
 		<section class="ba-intro">
 			<div class="ba-container ba-container__intro">
 				<div class="ba-row ba-row--collapse">
-			<div class="ba-col-6">
+			<div class="ba-col-large-6 ba-col-small-12 ba-col-medium-5">
 					<img src="img/inner_photo.jpg" alt="Logo">
 			</div>
 			<!-- end ba-col-6 -->
-			<div class="ba-col-6 ">
-					<div class="ba-intro__inner">
-						<h1 class="ba-title__intro">Creativity comes first</h1>
-						<div class="ba-title__content">
+			<div class="ba-col-large-6 ba-col-small-12 ba-col-medium-5">
+						<div class="ba-intro__content">
+										<div class="ba-intro__inner">
+						<h1 class="ba-title__intro">Creativity <br>comes first</h1>
 						<p>
 							Thinking about overseas adventure travel? Have you put any 
 							thought into the best places to go when it comes.
@@ -72,12 +72,13 @@
 			</div>
 			<!-- end ba-container ba-container__intro-->
 		</section>
-		<section class="ba-about">
+		<section id="about" class="ba-about">
 			<div class="ba-container">
 				<div class="ba-about--background">
-			<p class="ba-about--shadow">About</p>
+			<h2 class="ba-title ba-about--title">About</h2>
+			
 			<div class='ba-row'>
-				<div class="ba-col-6">
+				<div class="ba-col-large-6 ba-col-small-12 ba-col-medium-5">
 					<div class="ba-about__content">
 				<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
 						consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
@@ -93,7 +94,7 @@
 						<!-- end  ba-about__content-->
 					</div>
 					<!-- end ba-col-6 -->
-					<div class="ba-col-6">
+					<div class="ba-col-large-6 ba-col-small-12 ba-col-medium-5">
 							<img  class="ba-about__photo" src="img/about_photo.jpg" alt="photo">
 					</div>
 					<!-- end ba-col-6 -->
@@ -104,11 +105,11 @@
 		</div>
 		<!-- end ba-container -->
 		</section>
-		<section class="ba-services">
+		<section  id="services" class="ba-services">
 			<div class="ba-container ba-container__services">
-				<p class="ba-about--shadow ba-services--shadow">services</p>
+				<h2 class="ba-title ba-services--title">services</h2>
 				<div class="ba-row">
-					<div class="ba-col-4">
+					<div class="ba-col-4 ba-col-small-12 ba-col-medium-4">
 									<h3 class="ba-services__title">	
 										<img src="img/creative.png" alt="creative">
 								Creative
@@ -127,8 +128,8 @@
 										</a>
 					</div>
 					<!-- end  ba-col=4 -->
-					<div class="ba-col-4">
-								<h3 class="ba-services__title">	
+					<div class="ba-col-4 ba-col-small-12 ba-col-medium-4">
+							<h3 class="ba-services__title">	
 									<img src="img/camera.png" alt="camera">
 									Professional</h3>
 								<div  class="ba-services__item">
@@ -145,8 +146,8 @@
 											</a>
 						</div>
 						<!-- end  ba-col=4 -->
-						<div class="ba-col-4">
-									<h3 class="ba-services__title"> 
+						<div class="ba-col-4 ba-col-small-12 ba-col-medium-4">
+								<h3 class="ba-services__title"> 
 									<img src="img/purse.png" alt="purse">
 									Money Saving</h3>
 								<div class="ba-services__item">
@@ -169,8 +170,10 @@
 			</div>
 			<!-- end  ba-container-->
 		</section>
-		<section class="ba-works">
+		<section  id="portfolio" class="ba-works">
 			<div class="ba-container  ba-container__works">
+					<h2 class="ba-title ba-works--title">WORKS</h2>
+
 				<nav>
 						<ul class="ba-services__menu">
 							<li><a href="#">All</a></li>
@@ -200,20 +203,21 @@
 							<!-- /.ba-width-30 -->
 							<div class="ba-width-70">
 							  <div class="ba-line">
-								
+								<div class="ba-width-43">
 								  <img src="img/works_3.jpg" alt="Frypan" />
-								
-							
+								</div>
+								<div class="ba-width-57">
 								  <img src="img/works_4.jpg" alt="Cards" />
-							
+							</div>
 							  </div>
 							  <!-- /.ba-line -->
 							  <div class="ba-line">
-								
+									<div class="ba-width-57">
 								  <img src="img/works_5.jpg" alt="Keyboard" />
-								
+								</div>
+								<div class="ba-width-43">
 								  <img src="img/works_6.jpg" alt="Mountain" />
-								
+								</div>
 							  </div>
 							  <!-- /.ba-line -->
 							</div>
@@ -222,57 +226,95 @@
 						  <!-- /.ba-line -->		
 						
 		</section>
-		<section class="ba-testimonial">
+		<section  id="testimonial" class="ba-testimonial">
 				<div class="ba-container ba-container__testimonial">
-				<div class='ba-row'>
-						<div class="ba-col-6">
-								<img  class="ba-testimonial__photo" src="img/testimonial_photo.jpg" alt="photo">
-						</div>
-						<!-- end ba-col-6 -->
-						<div class="ba-col-6 ba-testimonial__content">
-								<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
-										consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
-										et iusto odio dignissim qui blandit praesent luptatum zzril delenit
-										duis dolore te feugait nulla facilisi.</p>
-										
-										<a href="#">David Ramon
-												<svg width="15" height="10">
-														<use xlink:href="#icon-arrow" />
-													  </svg>
-											</a>
-									
-									</div>
-									<!-- end ba-col-6 -->
+						<div class="ba-slider__testimonial">
+								<div class="ba-testimonial-slider">
+										<div class='ba-row'>
+												<div class="ba-testimonial__col ba-col-small-12 ba-col-medium-6">
+														<img  class="ba-testimonial__photo" src="img/testimonial_photo.jpg" alt="photo">
+												</div>
+												<!-- end ba-col-6 -->
+												<div class="ba-testimonial__col ba-col-small-12 ba-col-medium-6 ba-testimonial__content">
+														<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+																consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+																et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+																duis dolore te feugait nulla facilisi.</p>
+																
+																<a href="#">David Ramon
+																		<svg width="15" height="10">
+																				<use xlink:href="#icon-arrow" />
+																			  </svg>
+																	</a>
+															
+															</div>
+															<!-- end ba-col-6 -->			
+											</div>
+											<!-- end ba-row -->
+								</div>	
+								<!-- end ba-testimonial-slider -->
+								<div class="ba-testimonial-slider">
+									<div class='ba-row'>
+											<div class="ba-testimonial__col ba-col-small-12 ba-col-medium-6">
+													<img  class="ba-testimonial__photo" src="img/testimonial_photo.jpg" alt="photo">
+											</div>
+											<!-- end ba-col-6 -->
+											<div class="ba-testimonial__col ba-col-small-12 ba-col-medium-6 ba-testimonial__content">
+													<p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse
+															consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et
+															et iusto odio dignissim qui blandit praesent luptatum zzril delenit
+															duis dolore te feugait nulla facilisi.</p>
+															
+															<a href="#">David Ramon
+																	<svg width="15" height="10">
+																			<use xlink:href="#icon-arrow" />
+																		  </svg>
+																</a>
+														
+														</div>
+														<!-- end ba-col-6 -->			
+										</div>
+										<!-- end ba-row -->
+							</div>	
+							<!-- end ba-testimonial-slider -->
+
+							</div>
+							<!-- /ba-slider__testimonial -->
+							<div class="ba-slider-arrows">
+								
+							</div>
+							<!-- end ba-slider-arrows-->
+						<h2 class="ba-title ba-testimonial--title">SPEECH</h2>
+
 			
-				</div>
-				<!-- end be-row -->
+			
 			</div>
 			<!-- end ba-container -->
 			</section>
 	<section class="ba-logo">
 		<div class="ba-container">
-			<div class="ba-row">
-				<div class="ba-col-2">
+			<div class="ba-row ba-text-center">
+				<div class="ba-col-medium-2  ba-col-small-12">
 						<img src="img/logo_1.png" alt="Logo" />
 				</div>
 				<!-- end ba-col-2 -->
-				<div class="ba-col-2">
+				<div class="ba-col-medium-2 ba-col-small-12">
 						<img src="img/logo_2.png" alt="Logo" />
 				</div>
 				<!-- end ba-col-2 -->
-				<div class="ba-col-2">
+				<div class="ba-col-medium-2 ba-col-small-12">
 						<img src="img/logo_3.png" alt="Logo" />
 				</div>
 				<!-- end ba-col-2 -->
-				<div class="ba-col-2">
+				<div class="ba-col-medium-2 ba-col-small-12">
 						<img src="img/logo_4.png" alt="Logo" />
 				</div>
 				<!-- end ba-col-2 -->
-				<div class="ba-col-2">
+				<div class="ba-col-medium-2 ba-col-small-12">
 						<img src="img/logo_5.png" alt="Logo" />
 				</div>
 				<!-- end ba-col-2 -->
-				<div class="ba-col-2">
+				<div class="ba-col-medium-2 ba-col-small-12">
 						<img src="img/logo_6.png" alt="Logo" />
 				</div>
 				<!-- end ba-col-2 -->
@@ -281,10 +323,10 @@
 		</div>
 		<!-- end ba-container -->
 	</section>
-	<section class="ba-contact">
+	<section id="contact" class="ba-contact">
 		<div class="ba-container ba-container__contact">
 			<div class="ba-row">
-				<div class="ba-col-41">
+				<div class="ba-col-small-12  ba-col-medium-5">
 					<div class="ba-contact__item">
 							<ul class="ba-contacts">
 									<li>
@@ -320,7 +362,7 @@
 					<!--ba-contact__item  -->
 				</div>
 				<!-- ba-col-5 -->
-				<div class="ba-col-59">
+				<div class="ba-col-small-12  ba-col-medium-5">
 					<div class="ba-contact__form">
 						<h2 class="ba-contact__title">Get In Touch</h2>
 											<form action="#" method="post" class="ba-contacts-form">
@@ -360,38 +402,38 @@
 			<div class="ba-footer__socials">
 				<ul>
 					<li>
-					<a href="#">
+					<a class="footer__socials--icon" href="#">
 						<svg>
 							<use xlink:href="#icon-facebook"></use>
 						</svg>
 					</a>
 				</li>
 				<li>
-					<a href="#">
+					<a class="footer__socials--icon" href="#">
 						<svg>
 							<use xlink:href="#icon-twitter"></use>
 						</svg>
 					</a>
 				</li>
 				<li>
-						<a href="#">
+						<a class="footer__socials--icon" href="#">
 						<svg class="icon icon-behance"><use xlink:href="#icon-behance"></use>
 						</svg>
 						</a>
 				</li>
 				<li>
-						<a href="#">
+						<a class="footer__socials--icon" href="#">
 				<svg class="icon icon-flickr3"><use xlink:href="#icon-flickr3"></use>
 				</svg>
 				</a>
 					<li>
-							<a href="#">
+							<a class="footer__socials--icon" href="#">
 							<svg class="icon icon-instagram"><use xlink:href="#icon-instagram"></use>
 							</svg>
 						</a>
 				</li>
 				<li>
-						<a href="#">
+						<a class="footer__socials--icon" href="#">
 								<svg class="icon icon-dribbble">
 									<use xlink:href="#icon-dribbble"></use>
 								</svg>		
@@ -399,7 +441,7 @@
 				</li>
 
 				<li>
-					<a href="#">
+					<a class="footer__socials--icon" href="#">
 						<svg>
 							<use xlink:href="#icon-pinterest2"></use>
 						</svg>
@@ -415,6 +457,18 @@
 	</footer>
 	<svg class="ba-hidden">
 			<defs>
+					<symbol id="icon-angle-left" viewBox="0 0 11 28">
+							<title>angle-left</title>
+							<path
+							  d="M9.797 8.5c0 0.125-0.063 0.266-0.156 0.359l-6.141 6.141 6.141 6.141c0.094 0.094 0.156 0.234 0.156 0.359s-0.063 0.266-0.156 0.359l-0.781 0.781c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-7.281-7.281c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l7.281-7.281c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l0.781 0.781c0.094 0.094 0.156 0.219 0.156 0.359z"
+							></path>
+						  </symbol>
+						  <symbol id="icon-angle-right" viewBox="0 0 9 28">
+							<title>angle-right</title>
+							<path
+							  d="M9.297 15c0 0.125-0.063 0.266-0.156 0.359l-7.281 7.281c-0.094 0.094-0.234 0.156-0.359 0.156s-0.266-0.063-0.359-0.156l-0.781-0.781c-0.094-0.094-0.156-0.219-0.156-0.359 0-0.125 0.063-0.266 0.156-0.359l6.141-6.141-6.141-6.141c-0.094-0.094-0.156-0.234-0.156-0.359s0.063-0.266 0.156-0.359l0.781-0.781c0.094-0.094 0.234-0.156 0.359-0.156s0.266 0.063 0.359 0.156l7.281 7.281c0.094 0.094 0.156 0.234 0.156 0.359z"
+							></path>
+						  </symbol>
 					<symbol id="icon-arrow" viewBox="0 0 57 9.5">
 							<path
 							  d="M1 4.8c6.1-.1 13.2-.1 18.7-.1 8-.1 20.9-.3 20.9-.3"
@@ -467,6 +521,8 @@
 							</symbol>
 						</defs>
 					  </svg>
- <script src="js/main.js"></script>
-	</body>
+					  <script src="js/jquery-3.4.1.min.js"></script>
+					  <script src="js/slick.min.js"></script>
+					  <script src="js/main.js"></script>
+</body>
 </html>
